@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+header {
+    font-weight: bold;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container {
+    background: linear-gradient(rgba(95, 94, 63, 0.8), rgba(95, 94, 63, 0.8)), url("./asset/images/workdesk\ 3.jpg ");
+    background-size: cover;
+    height: 850px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.hr-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.explore h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 3rem;
+    margin-top: 2rem;
+}
+.line {
+    width: 2.8rem;
+    background-color: #ffc107;
+    padding: 3px;
+    border: 1px;
+    border-color: #ffc107;
+    border-radius: 1rem; 
+}
+.explore p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.btton-u{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.explore button {
+    background-color: #ffc107;
+    border-color: whitesmoke;
+    padding: 1rem;
+    font-weight: 900;
+    border: 1px solid #ffc107;
+    border-radius: 1rem; 
+    width: 10rem; 
+}
+.need {
+    background-color: #ffc107;
+    height: 450px;
+    color: #808080;
+}
+.need h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 4rem;
+}
+.need p {
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 33rem;
+    padding-right: 33rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.space-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.need hr {
+    width: 2.8rem;
+    background-color: #808080;  
+    border: 1px;
+    border-radius: 1rem;
+    border-color: #808080; 
+    padding: 3px;
+}
+.get-started {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.need button {
+    background-color: black;
+    border-color: whitesmoke;
+    padding: 1rem;
+    font-weight: 900;
+    border: 1px solid black;
+    border-radius: 1rem; 
+    width: 10rem;
+    color: #ffc107; 
+}
+.services {
+    background-color: #ffffff;
+    height: 350px;
+    color: black;
+}
+.services h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 4rem;
+}
+.hr-tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services hr {
+    width: 2.8rem;
+    background-color: #ffc107;  
+    border: 1px;
+    border-radius: 1rem;
+    border-color: #ffc107; 
+    padding: 3px;
+}
+.word-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 3rem;
+    color: #808080;
+}
+ .img-icon {
+    color: #ffc107;
+    padding-left: 7rem;
+    padding-right: 7rem;
+} 
+.made:hover {
+    cursor: pointer;
+    background: linear-gradient(greenyellow, orange, yellow);
+    padding: 1rem;
+    height: 180px;
+}
+.ready:hover {
+    cursor: pointer;
+    background: linear-gradient(greenyellow, orange, yellow);
+    padding: 1rem;
+    height: 180px;
+}
+.peru:hover {
+    cursor: pointer;
+    background: linear-gradient(greenyellow, orange, yellow);
+    padding: 1rem;
+    height: 180px;
+}
+.zone:hover {
+    cursor: pointer;
+    background: linear-gradient(greenyellow, orange, yellow);
+    padding: 1rem;
+    height: 180px;
+}
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.description {
+    font-weight: 300;
+    width: 18vw;
+}
+.images {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    margin-top: 3.5rem;
+}
+.images img {
+    height: 350px;
+    width: 650px;
+}
+.images p {
+    text-align: center;
+    font-weight: bold;
+    color: #808080;
+}
+.touch h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 4rem;
+}
+.tag-hrr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.touch hr {
+    width: 2.8rem;
+    background-color: #ffc107;  
+    border: 1px;
+    border-radius: 1rem;
+    border-color: #ffc107; 
+    padding: 3px;  
+}
+.touch p {
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 33rem;
+    padding-right: 33rem;
+    color: #808080;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+.before-foot {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    margin-top: 1rem;
+}
+.number-mail {
+    display: flex;
+}
+.number {
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+.mail {
+    padding-left: 25rem;
+    padding-right: 15rem;
+}
+.mail a {
+    color: #ffc107;
+    text-decoration: none;
+}
+footer {
+    background-color: #808080;
+    color: white;
+    text-align: center;
+    padding:   1.5rem;
+}
+.aa-icon {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: #808080;
+}
