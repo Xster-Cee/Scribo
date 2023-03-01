@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#wrapper {
+    background: linear-gradient(rgba(95, 94, 63, 0.8), rgba(95, 94, 63, 0.8)), url("../asset/images/workdesk\ 3.jpg ");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+    color: #ffffff;
+}
+.container {
+    background: linear-gradient(rgba(151, 151, 149, 0.8), rgba(151, 151, 149, 0.8)), url("../asset/images/background2.jpg ");
+    background-size: cover;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5rem 5rem 5rem 5rem;
+    color: #ffffff;
+    border-radius: 2rem;
+    border: 2px;
+}
+header {
+    font-weight: bold;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 4vh;
+    width: 3vw;
+    padding: 2rem;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+nav ul button {
+    border: 2px solid #f5d77f;
+    background-color: #f5d77f;
+    color: #ffffff;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.cont {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.touch h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 4rem;
+}
+.tag-hrr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.touch hr {
+    width: 2.8rem;
+    background-color: #ffc107;  
+    border: 1px;
+    border-radius: 1rem;
+    border-color: #ffc107; 
+    padding: 3px;  
+}
+.touch p {
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 33rem;
+    padding-right: 33rem;
+    color: #f5d77f;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+.wrapper {
+    background-color: #f5d77f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    color: #000000;
+    border-radius: 1rem;
+    height: 80vh;
+}
+.Information {
+    background: linear-gradient(rgba(95, 94, 63, 0.8), rgba(95, 94, 63, 0.8)), url("../asset/images/background3.jpg ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    color: #A6A8A4;
+    display: block;
+}
+.Information h4 {
+    font-size: 15px;
+    font-weight: 900;
+    padding: 2rem;
+}
+.Information p {
+    padding: 2rem;
+    inline-size: none;
+}
+.contact-info {
+    padding: 2rem;
+}
+.contact-info a {
+    color: #A6A8A4;
+    padding: 1rem;
+    text-decoration: none;
+}
+.details {
+    padding: 2rem;
+    padding-left: 3rem;
+    display: block;  
+}
+.details form input {
+    cursor: pointer;
+    height: 10vh;
+    width: 50vh;
+    border-top: none;
+    border-bottom: 1px solid #6C7046;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    margin-bottom: 1rem;
+    color: #A6A8A4;
+    font-size: 0.7rem;
+    background-color: #f5d77f;
+}
+input .holder {
+    display: block;
+    cursor: pointer;
+    height: 10vh;
+    width: 100vh;
+}
+.details form p {
+    color: #A6A8A4;
+    font-weight: 900;
+    font-size: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.details form textarea {
+    cursor: pointer;
+    height: 15vh;
+    width: 100vh;
+    resize: none;
+    border-top: none;
+    border-bottom: 3px solid #A6A8A4;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    margin-bottom: 1rem;
+    color: #A6A8A4;
+    font-size: 0.7rem;
+    background-color: #f5d77f;
+}
+.details form button {
+    border: 1px solid #A6A8A4;
+    border-radius: 0.8rem;
+    background-color: #A6A8A4;
+    text-align: center;
+    padding: 1rem;
+    width: 12vw;
+    color: #6C7046;
+    margin-top: 3rem;
+    display: block;
+}
+.details form button:hover {
+    cursor: pointer;
+    background-color: #6C7046;
+    color: #f5d77f;
+}
+footer {
+    font-weight: bold;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.foot ul li {
+    list-style: none;
+    padding-right: 0.8rem;
+
+}
+.foot ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.foots {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 27rem;
+    padding-right: 27rem;
+    padding-top: 1rem;
+    color: #ffffff;
+}
+.foot button {
+    border-radius: 8rem;
+    border: 1px solid #A6A8A4;
+    background-color: #A6A8A4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px;
+    color: #ffffff;
+}
+.foot button a {
+    color: #ffffff;
+}
