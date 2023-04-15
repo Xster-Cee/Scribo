@@ -1,0 +1,701 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#container {
+    background: linear-gradient(rgba(95, 94, 63, 0.8), rgba(95, 94, 63, 0.8)), url("./assets/images/workdesk\ 3.jpg");
+    background-size: cover;
+    height: 850px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+header {
+    font-weight: bold;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cont-us {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hr-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 3rem;
+    margin-top: 2rem;
+}
+
+.line {
+    width: 2.8rem;
+    background-color: #ffc107;
+    padding: 3px;
+    border: 1px;
+    border-color: #ffc107;
+    border-radius: 1rem; 
+}
+
+.explore p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.btton-u{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore button {
+    background-color: #ffc107;
+    border-color: whitesmoke;
+    padding: 1rem;
+    font-weight: 900;
+    border: 1px solid #ffc107;
+    border-radius: 1rem; 
+    width: 10rem; 
+}
+
+#need {
+    background-color: #ffc107;
+    height: 450px;
+    color: #808080;
+}
+
+#need h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 4rem;
+}
+
+#need p {
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 33rem;
+    padding-right: 33rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.space-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#need hr {
+    width: 2.8rem;
+    background-color: #808080;  
+    border: 1px;
+    border-radius: 1rem;
+    border-color: #808080; 
+    padding: 3px;
+}
+
+.get-started {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#need button {
+    background-color: black;
+    border-color: whitesmoke;
+    padding: 1rem;
+    font-weight: 900;
+    border: 1px solid black;
+    border-radius: 1rem; 
+    width: 10rem;
+    color: #ffc107; 
+}
+
+#services {
+    background-color: #ffffff;
+    height: 350px;
+    color: black;
+}
+
+#services h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 4rem;
+}
+
+.hr-tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#services hr {
+    width: 2.8rem;
+    background-color: #ffc107;  
+    border: 1px;
+    border-radius: 1rem;
+    border-color: #ffc107; 
+    padding: 3px;
+}
+
+.word-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 3rem;
+    color: #808080;
+}
+
+ .img-icon {
+    color: #ffc107;
+    padding-left: 7rem;
+    padding-right: 7rem;
+} 
+
+.made:hover {
+    cursor: pointer;
+    background: linear-gradient(greenyellow, orange, yellow);
+    padding: 1rem;
+    height: 180px;
+}
+
+.ready:hover {
+    cursor: pointer;
+    background: linear-gradient(greenyellow, orange, yellow);
+    padding: 1rem;
+    height: 180px;
+}
+
+.peru:hover {
+    cursor: pointer;
+    background: linear-gradient(greenyellow, orange, yellow);
+    padding: 1rem;
+    height: 180px;
+}
+
+.zone:hover {
+    cursor: pointer;
+    background: linear-gradient(greenyellow, orange, yellow);
+    padding: 1rem;
+    height: 180px;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.description {
+    font-weight: 300;
+    width: 18vw;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    margin-top: 3.5rem;
+}
+
+.images img {
+    height: 350px;
+    width: 650px;
+}
+
+.images p {
+    text-align: center;
+    font-weight: bold;
+    color: #808080;
+}
+
+#touch h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 4rem;
+}
+
+.tag-hrr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#touch hr {
+    width: 2.8rem;
+    background-color: #ffc107;  
+    border: 1px;
+    border-radius: 1rem;
+    border-color: #ffc107; 
+    padding: 3px;  
+}
+
+#touch p {
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 33rem;
+    padding-right: 33rem;
+    color: #808080;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+#before-foot {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    margin-top: 1rem;
+}
+
+.number-mail {
+    display: flex;
+}
+
+.number {
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.mail {
+    padding-left: 25rem;
+    padding-right: 15rem;
+}
+
+.mail a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+.aa-icon {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: #808080;
+}
+
+footer {
+    background-color: #808080;
+    color: white;
+    text-align: center;
+    padding:   1.5rem;
+}
+
+/* media query */
+@media only screen and (max-width: 1024px) {
+    #need p {
+        padding-left: 18rem;
+        padding-right: 18rem;
+    }
+
+#services {
+    height: 300px;
+}
+
+.word-wrap {
+    padding: 3rem 0rem 3rem 0rem;
+}
+
+ .img-icon {
+    padding-left: 5rem;
+    padding-right: 5rem;
+} 
+
+.made:hover {
+    padding: 0.5rem;
+}
+
+.ready:hover {
+    padding: 0.5rem;
+}
+
+.peru:hover {
+    padding: 0.5rem;
+}
+
+.zone:hover {
+    padding: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.description {
+    width: 15vw;
+    font-size: 12px;
+}
+
+.images {
+    padding: 1rem;
+    margin-top: 7rem;
+}
+
+.images img {
+    height: 350px;
+    width: 480px;
+}
+
+#touch p {
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.number {
+    padding-left: 13rem;
+    padding-right: 3rem;
+}
+
+.mail {
+    padding-left: 10rem;
+    padding-right: 9rem;
+}
+}
+
+@media only screen and (max-width: 960px) {
+    #container {
+        height: 650px;
+    }
+
+    header {
+        font-size: 0.9rem;
+    }
+
+    .explore h1 {
+        font-size: 4rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .explore p {
+        font-size: 1.2rem;
+    }
+
+    .explore button {
+        padding: 0.8rem;
+    }
+
+    #need p {
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+
+    #need button {
+        padding: 0.8rem;
+    }
+
+    .images img {
+        width: 430px;
+    }
+
+    .number {
+        padding-left: 11rem;
+        padding-right: 3rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        font-size: 0.7rem;
+    }
+
+    .explore h1 {
+        font-size: 3rem;
+    }
+
+    .explore p {
+        font-size: 0.9rem;
+    }
+
+    .explore button {
+        padding: 0.7rem;
+        font-size: 11px;
+        width: 7rem;
+    }
+
+    #need p {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    #need button {
+        padding: 0.7rem;
+        font-size: 11px;
+        width: 7rem;
+    }
+
+    .images {
+        display: block;
+        padding: 2rem;
+        margin-top: 7rem;
+    }
+
+    .images img {
+        width: 700px;
+        margin-top: 1rem;
+    }
+
+    #touch p {
+        padding-left: 12rem;
+        padding-right: 12rem;
+    }
+
+    .number {
+        padding-left: 5rem;
+        padding-right: 4rem;
+    }
+
+    .mail {
+        padding-left: 10rem;
+        padding-right: 3rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    header {
+        font-size: 0.6rem;
+    }
+
+    nav ul li {
+        margin-right: 0.1rem;
+    }
+
+    .explore h1 {
+        font-size: 2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .explore p {
+        font-size: 0.6rem;
+    }
+
+    #need h3 {
+        font-size: 2rem;
+        padding: 3rem;
+    }
+
+    #need p {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        font-size: 13px;
+    }
+    
+    #services h2 {
+        font-size: 2rem;
+        font-weight: 900;
+        text-align: center;
+        padding: 3rem;
+    }
+
+    .word-wrap {
+        display: block;
+    }
+
+     .img-icon {
+        color: #ffc107;
+        padding-left: 12rem;
+        padding-right: 12rem;
+    } 
+
+    .made:hover {
+        height: 130px;
+    }
+
+    .ready:hover {
+        height: 130px;
+    }
+
+    .peru:hover {
+        height: 130px;
+    }
+
+    .zone:hover {
+        height: 130px;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    .description {
+        width: 60vw;
+        text-align: center;
+        padding-left: 5rem;
+        padding-bottom: 2rem;
+        font-size: 13px;
+    }
+
+    .images {
+        display: block;
+        padding: 1.8rem;
+        margin-top: 26rem;
+    }
+
+    .images img {
+        height: 300px;
+        width: 370px;
+    }
+
+    #touch h4 {
+        font-size: 2rem;
+    }
+
+    #touch p {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        font-size: 13px;
+    }
+
+    .number {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 11px;
+    }
+
+    .mail {
+        padding-left: 4rem;
+        padding-right: 1rem;
+        font-size: 11px;
+    }
+
+    footer {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #need h3 {
+        font-size: 2rem;
+        padding: 2rem;
+    }
+
+    #need p {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: 13px;
+    }
+
+    .img-icon {
+        padding-left: 11rem;
+        padding-right: 5rem;
+    } 
+
+    .images {
+        display: block;
+        padding: 2rem;
+        margin-top: 27rem;
+    }
+
+    .images img {
+        height: 250px;
+        width: 310px;
+        margin-top: 1rem;
+    }
+
+    #touch p {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: 13px;
+    }
+
+    .number {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 11px;
+    }
+
+    .mail {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    header {
+        font-size: 0.45rem;
+    }
+
+    .explore h1 {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    #services h2 {
+        font-size: 1.7rem;
+    }
+
+    .img-icon {
+        padding-left: 9rem;
+        padding-right: 7rem;
+    } 
+
+    .subtitle {
+        font-size: 1.2rem;
+    }
+
+    .description {
+        padding-left: 4rem;
+    }
+
+    .images {
+        padding: 1rem;
+        margin-top: 27rem;
+    }
+
+    .images img {
+        height: 250px;
+        width: 290px;
+    }
+
+    #before-foot {
+        padding-right: 1rem;
+        padding-left: 1rem;
+        margin-top: 0rem;
+    }
+
+    .number {
+        padding-left: 0.01rem;
+        padding-right: 0.2rem;
+    }
+    
+    .mail {
+        padding-left: 4.3rem;
+        padding-right: 0rem;
+    }
+}

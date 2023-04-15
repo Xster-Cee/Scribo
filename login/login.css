@@ -1,0 +1,518 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#wrapper {
+    background: linear-gradient(rgba(95, 94, 63, 0.8), rgba(95, 94, 63, 0.8)), url("../assets/images/workdesk\ 3.jpg ");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+    color: #ffffff;
+}
+
+.container {
+    background: linear-gradient(rgba(151, 151, 149, 0.8), rgba(151, 151, 149, 0.8)), url("../assets/images/background2.jpg ");
+    background-size: cover;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5rem 5rem 5rem 5rem;
+    color: #ffffff;
+    border-radius: 2rem;
+    border: 2px;
+}
+
+header {
+    font-weight: bold;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 4vh;
+    width: 3vw;
+    padding: 2rem;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+nav ul button {
+    border: 2px solid #f5d77f;
+    background-color: #f5d77f;
+    color: #ffffff;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.cont {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.touch h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 4rem;
+}
+
+.tag-hrr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.touch hr {
+    width: 2.8rem;
+    background-color: #ffc107;  
+    border: 1px;
+    border-radius: 1rem;
+    border-color: #ffc107; 
+    padding: 3px;  
+}
+
+.touch p {
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 33rem;
+    padding-right: 33rem;
+    color: #f5d77f;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.wrapper {
+    background-color: #f5d77f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    color: #000000;
+    border-radius: 1rem;
+    height: 80vh;
+}
+
+.Information {
+    background: linear-gradient(rgba(95, 94, 63, 0.8), rgba(95, 94, 63, 0.8)), url("../assets/images/background3.jpg ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    color: #A6A8A4;
+    display: block;
+}
+
+.Information h4 {
+    font-size: 15px;
+    font-weight: 900;
+    padding: 2rem;
+}
+
+.Information p {
+    padding: 2rem;
+    inline-size: none;
+}
+
+.contact-info {
+    padding: 2rem;
+}
+
+.contact-info a {
+    color: #A6A8A4;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.details {
+    padding: 2rem;
+    padding-left: 3rem;
+}
+
+.details form input {
+    display: block;
+    cursor: pointer;
+    height: 10vh;
+    width: 45vw;
+    border-top: none;
+    border-bottom: 1px solid #6C7046;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    margin-bottom: 1rem;
+    color: #A6A8A4;
+    font-size: 0.7rem;
+    background-color: #f5d77f;
+}
+
+.details form p {
+    color: #A6A8A4;
+    font-weight: 900;
+    font-size: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.details form textarea {
+    cursor: pointer;
+    height: 10vh;
+    width: 45vw;
+    resize: none;
+    border-top: none;
+    border-bottom: 3px solid #A6A8A4;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    margin-bottom: 1rem;
+    color: #A6A8A4;
+    font-size: 0.7rem;
+    background-color: #f5d77f;
+}
+
+.details form button {
+    border: 1px solid #A6A8A4;
+    border-radius: 0.8rem;
+    background-color: #A6A8A4;
+    text-align: center;
+    padding: 1rem;
+    width: 12vw;
+    color: #6C7046;
+    margin-top: 3rem;
+    display: block;
+}
+
+.details form button:hover {
+    cursor: pointer;
+    background-color: #6C7046;
+    color: #f5d77f;
+}
+
+footer {
+    font-weight: bold;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.foot ul li {
+    list-style: none;
+    padding-right: 0.8rem;
+
+}
+
+.foot ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.foots {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 27rem;
+    padding-right: 27rem;
+    padding-top: 1rem;
+    color: #ffffff;
+}
+
+.foot button {
+    border-radius: 8rem;
+    border: 1px solid #A6A8A4;
+    background-color: #A6A8A4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px;
+    color: #ffffff;
+}
+
+.foot button a {
+    color: #ffffff;
+}
+
+/* media query */
+@media only screen and (max-width: 1024px) {
+    .container {
+        padding: 3rem 2rem 3rem 2rem;
+    }
+
+    .wrapper {
+        padding: 0.8rem;
+    }
+
+    .touch p {
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+
+    footer {
+        margin-top: 2rem;
+    }
+    
+    .foot ul {
+        padding: 2rem 0.2rem;
+    }
+
+    .foots {
+        padding-left: 11rem;
+        padding-right: 11rem;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .details form button {
+        padding: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        font-size: 0.7rem;
+    }
+    
+    .logo img {
+        padding: 0rem;
+    }
+    
+    nav ul li {
+        margin-right: 1rem;
+        padding: 0rem;
+    }
+
+    nav ul {
+        padding: 0rem;
+    }
+    
+    nav ul button {
+        font-size: 0.7rem;
+    }
+
+    .touch p {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    .wrapper {
+        grid-template-columns: 1fr 0.5fr;
+    }
+
+    .Information h4 {
+        font-size: 17px;
+    }
+
+    .Information p {
+        padding: 2rem;
+    }
+
+    .contact-info {
+        padding: 2rem;
+    }
+    
+    .details form input {
+        height: 8vh;
+        width: 30vw;
+        font-size: 0.5rem;
+    }
+    
+    .details form textarea {
+        height: 9vh;
+        width: 30vw;
+        font-size: 0.5rem;
+    }
+
+    .details form button {
+        border-radius: 0.4rem;
+        padding: 0.5rem;
+        font-size: 0.6rem;
+    }
+    
+    .foot ul {
+        padding: 1rem 0.2rem;
+    }
+
+    .foots {
+        padding-left: 9rem;
+        padding-right: 9rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .container {
+        padding: 3rem 1rem 3rem 1rem;
+    }
+
+    header {
+        font-size: 0.6rem;
+    }
+    
+    .logo img {
+        padding: 0rem 1rem 0rem 1rem;
+    }
+    
+    nav ul li {
+        padding: 0rem;
+    }
+
+    nav ul {
+        padding: 2rem 0rem 2rem 0rem;
+    }
+    
+    nav ul button {
+        padding: 0.2rem;
+        font-size: 0.6rem;
+    }
+
+    .touch h4 {
+        font-size: 1.8rem;
+        padding: 3rem;
+    }
+
+    .touch p {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        font-size: 13px;
+    }
+
+    .wrapper {
+        display: block;
+        height: 110vh;
+    }
+
+    .Information h4 {
+        font-size: 1.5rem;
+    }
+
+    .Information p {
+        padding: 2rem;
+        font-size: 13px;
+    }
+    
+    .contact-info {
+        padding: 2rem;
+        font-size: 13px;
+    }
+
+    .details {
+        padding: 2rem 1rem;
+    }
+    
+    .details form p {
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .details form input {
+        height: 5vh;
+        width: 60vw;
+        font-size: 0.5rem;
+    }
+    
+    .details form textarea {
+        height: 5vh;
+        width: 60vw;
+        font-size: 0.5rem;
+    }
+    .details form button {
+        padding: 0.3rem;
+        width: 5rem;
+        font-size: 10px;
+    }
+
+    footer {
+        font-size: 0.6rem;
+        margin-top: 2rem;
+    }
+    
+    .foot ul li {
+        padding-right: 0.3rem;
+    
+    }
+    
+    .foot ul {
+        padding: 0.1rem 0.2rem;
+    }
+    
+    .foots {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0.5rem;
+    }
+    
+    .foot button {
+        padding: 3px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        padding: 2rem 0.5rem 2rem 0.5rem;
+    }
+
+    header {
+        font-size: 0.5rem;
+    }
+
+    nav ul button {
+        padding: 0.18rem;
+        font-size: 0.5rem;
+    }
+
+    .touch h4 {
+        padding: 2rem;
+    }
+
+    .touch p {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .details form button {
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #wrapper {
+        padding: 1.9rem 1.9rem 1.9rem 1.9rem;
+    }
+
+    .container {
+        padding: 1rem 0.2rem 1rem 0.2rem;
+    }
+
+    header {
+        font-size: 0.45rem;
+    }
+
+    nav ul button {
+        padding: 0.16rem;
+        font-size: 0.45rem;
+    }
+
+    footer {
+        font-size: 0.45rem;
+    }
+    
+    .foot button {
+        padding: 2px;
+    }
+}
